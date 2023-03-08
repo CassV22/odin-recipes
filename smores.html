@@ -16,7 +16,7 @@
 <!--Main Heading for website-->
         <h1 id="main_title">The Chocolate Lover's Cookbook</h1>
         <h2 id="sub_title">Waffle S'more Sundae</h2>
-        <a id="back_btn">
+        <a id="back_btn" href="recipes.html">
             <span class="material-symbols-outlined">
                 <img src="images/arrow_back_FILL0_wght400_GRAD0_opsz48.png" class="back_symbol">
                 <p class="back">Back</p>
@@ -44,7 +44,7 @@
                     <input type="checkbox" id="caramel" name="caramel">
                     <label for="caramel">Caramel Sauce</label><br>
                     <input type="checkbox" id="choco_chips" name="choco_chips">
-                    <label for="choco_chips">2 tbsp of Chocolate Chips</label><br>
+                    <label for="choco_chips">2 tbsp of chocolate chips</label><br>
                     <input type="checkbox" id="whipped_cream" name="whipped_cream">
                     <label for="whipped_cream">Whipped Cream</label><br>
                     
@@ -80,17 +80,20 @@
             <div class="grid_container2">
                 <figure>
                     <img src="images/waffle_smore.jpg" id="smore_img" alt="Image of a waffle topped with chocolate ice cream and chocolate syrup.">
-                    <figcaption><p>The melty goodness of a s'more with the cool creaminess of an ice cream sundae!</p></figcaption>
+                    <figcaption class="recipe_caption"><p>The melty goodness of a s'more with the<br>cool creaminess of an ice cream sundae!</p></figcaption>
                 </figure>
     
-                <div class="details">
-                    <p>Servings: 2</p>
-                    <p>Cook time:10 min         Prep time: 10 min</p>
-                    <p>Cook Temperature: 400°F</p>
+                <div class="bottom_container">
+                    <div class="details">
+                        <p>Servings: 2</p>
+                        <p>Cook time:10 min <span class="prep_time">Prep time: 10 min</span></p>
+                        <p>Cook Temperature: 400°F</p>
+                    </div>
+        
+                    <h3 class="video_title">Instructional Video</h3>
+                    <img src="images/baking.jpg" class="instructional_video" alt="Instructional video of recipe">
                 </div>
-    
-                <h3>Instructional Video</h3>
-                <img src="images/baking.jpg" class="instructional_video" alt="Instructional video of recipe">
+                
     
             </div>
         </div>
