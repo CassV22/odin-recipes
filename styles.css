@@ -1,11 +1,11 @@
 body {
-    margin: 0;
-    overflow-y: hidden;
+    margin: 0;    
+    font-family: 'Eczar', serif;
+    background-color: #FBBBBB;    
 }
 
 #main_title {
-    text-align: center;
-    font-family: 'Eczar', serif;
+    text-align: center;   
     font-size: 65px;
     margin-top: 20px;
     margin-bottom: 0;
@@ -36,22 +36,30 @@ figure {
     position: absolute;
 }
 
-/* figcaption {
-    margin: 0;
-} */
+figcaption {
+    color: #2E1503;
+}
 
 .fact_head {
     margin-top: 5px;
     margin-bottom: -15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.fact {
+    font-weight: 500;
 }
 
 .factA {
     left: 20px;
+    top: 120px;
     
 }
 
 .factB {
     right: 20px;
+    top: 120px;
 }
 
 .factC {
@@ -60,6 +68,49 @@ figure {
 }
 
 .factD {
-    right: 22px;
+    right: 28px;
     bottom: 5px;
+}
+
+/**********Start of recipes page styling*********/
+#sub_title {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #65350F;
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 30px;
+       
+}
+
+.recipe_img {
+    height: 300px;
+    width: 300px;
+    border: 2px solid #FFFADA;
+}
+
+
+.cheesecake, .truffles {
+    position: absolute;
+    top: 600px;
+}
+
+.cheesecake {
+    left: 200px;
+}
+
+.truffles {
+    right: 200px;
+}
+
+.recipe_name {
+    margin-top: -25px;
+    font-size: 25px;
+    font-weight: bold;
 }
