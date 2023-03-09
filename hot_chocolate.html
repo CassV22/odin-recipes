@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!--Required meta tags (characters and responsive viewport)-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+        <title>The Chocolate Lover's Cookbook - Recipes</title>
+
+        <!--Link to stylesheet and fonts-->
+        <link rel="stylesheet" href="styles.css" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
+    </head>
+
+    <body>
+<!--Main Heading for website-->
+        <h1 id="main_title">The Chocolate Lover's Cookbook</h1>
+        <h2 id="sub_title">Molten Hot Chocolate</h2>
+        <a id="back_btn" href="recipes.html">
+            <span class="material-symbols-outlined">
+                <img src="images/arrow_back_FILL0_wght400_GRAD0_opsz48.png" class="back_symbol">
+                <p class="back">Back</p>
+            </span>
+        </a>
+        
+        <div class="main_grid">
+            <div class="grid_container1">
+                <h3>Ingredients</h3>
+                <div class="ingredientsL1">
+                    <input type="checkbox" id="milk" name="milk">
+                    <label for="milk">1 1/2 cups of milk</label><br>
+                    <input type="checkbox" id="cream" name="cream">
+                    <label for="cream">2 tbsp of heavy cream</label><br>
+                    <input type="checkbox" id="chocolate" name="chocolate">
+                    <label for="chocolate">10 oz of chocolate bark</label><br>
+                    <input type="checkbox" id="marshmallow" name="marshmallow">
+                    <label for="marshmallow">Mini Marshmallows</label><br>
+                    <input type="checkbox" id="syrup" name="syrup">
+                    <label for="syrup">Chocolate Syrup</label><br>
+                </div>
+                <div class="ingredientsR1">
+                    <input type="checkbox" id="whipped_cream" name="whipped_cream">
+                    <label for="whipped_cream">Whipped Cream</label><br>
+                    <input type="checkbox" id="candy" name="candy">
+                    <label for="candy">Chocolate candies,<br><span class="candies">chocolate shavings,<br></span><span class="candies">etc.</span></label><br>                                   
+                    
+                </div>  
+                <div class="instructions">
+                    <h3>Instructions</h3>
+                    <ol>
+                        <li class="instruction_details">Mix milk, heavy cream, and chocolate bark in<br>
+                            a saucepan over the stove top on medium<br>
+                            heat.
+                        </li>
+    
+                        <li class="instruction_details">Stir until chocolate is completely melted and<br>
+                            smooth.
+                        </li>
+                    
+                        <li class="instruction_details">Pour melted chocolate into your favorite mug.<br>
+                            Top with mini marshmallows, chocolate<br>
+                            syrup and your favorite chocolate toppings<br>
+                            (shavings, m&ms, cookie pieces, etc.).
+                        </li>
+                        <li class="instruction_details">Top with peanuts, crushed graham cracker,<br>
+                            chocolate syrup, caramel sauce, and whipped<br>
+                            cream. Serve warm and enjoy!
+                        </li>                    
+                    </ol>                      
+                    
+    
+                </div>          
+    
+            </div>
+            <div class="grid_container2">
+                <figure class="chocolate_figure"> <!--Fix image placement; change class- too far right-->
+                    <img src="images/hot_chocolate.jpg" id="chocolate_img" alt="Image of a waffle topped with chocolate ice cream and chocolate syrup.">
+                    <figcaption class="recipe_caption chocolate_cap"><p>Rich melted chocolate dressed with<br>marshmallow and more chocolate!</p></figcaption>
+                </figure>
+    
+                <div class="bottom_container">
+                    <div class="details">
+                        <p>Servings: 1</p>
+                        <p>Cook time:10 min <span class="prep_time">Prep time: 5 min</span></p>
+                        <p>Cook Temperature: N/A</p>
+                    </div>
+        
+                    <h3 class="video_title">Instructional Video</h3>
+                    <img src="images/baking.jpg" class="instructional_video" alt="Instructional video of recipe">
+                </div>
+                
+    
+            </div>
+        </div>
+        
+
+    </body>
+
+</html>
