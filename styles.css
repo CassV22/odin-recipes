@@ -1,8 +1,18 @@
+/****Stylings for homepage and main stylings for website****/
 body {
     margin: 0;    
     font-family: 'Eczar', serif;
     background-color: #FBBBBB;    
 }
+
+a {
+    text-decoration: none;
+    color: #2E1503;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
 
 #main_title {
     text-align: center;   
@@ -40,6 +50,7 @@ figcaption {
     color: #2E1503;
 }
 
+/****Styling for Did you Know? on facts*****/
 .fact_head {
     margin-top: 5px;
     margin-bottom: -15px;
@@ -72,7 +83,7 @@ figcaption {
     bottom: 5px;
 }
 
-/**********Start of recipes page styling*********/
+/*************************Start of recipes page styling************************/
 #sub_title {
     text-align: center;
     font-size: 50px;
@@ -115,7 +126,7 @@ figcaption {
     font-weight: bold;
 }
 
-/***************************Smores styling begins**************************/
+/********************************Smores styling begins*******************************/
 .back_symbol {
     height: 25px;
     width: 25px;
@@ -152,6 +163,7 @@ figcaption {
    margin-left: 800px;
 }
 
+/***Formatting for each column of ingredients***/
 .ingredientsL, .ingredientsR {
     font-size: 22px;
     font-weight: 500;
@@ -207,6 +219,7 @@ ol {
    font-weight: 600;
 }
 
+/****Fomatting/main container for right side of page under image***/
 .bottom_container {
     position: absolute;
     top: 600px;
@@ -215,7 +228,6 @@ ol {
 .details{
     font-size: 20px;
     font-weight: 500;
-
 }
 
 .prep_time{
@@ -232,4 +244,156 @@ ol {
     height: 215px;
     width: 350px;
     margin-bottom: 30px;
+}
+
+/*********************************Hot chocolate styling begins********************************/
+.ingredientsL1, .ingredientsR1 {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.ingredientsR1 {
+    padding-left: 40px;
+}
+
+.candies {
+    padding-left: 25px;
+}
+
+#chocolate_img {
+    height: 300px;
+    width: 325px;
+    border: 2px solid #FFFADA;
+    position: absolute;
+    right: 5px;
+    
+}
+
+.chocolate_figure {
+    padding-left: 25px;
+}
+
+.chocolate_cap {
+    padding-right: 35px;
+}
+
+/*****************************Salted caramel chocolate cake styling begins***************************/
+h4 {
+    margin-bottom: 5px;
+    color: #65350F;
+    text-align: center;
+}
+
+.cake_ingredients {
+    padding-bottom: 0;
+}
+
+.ingredientsL2, .ingredientsR2 {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: text-top;
+}
+
+.ingredientsR2 {
+    padding-left: 20px;
+}
+
+.cake, .frosting {
+    margin-top: 0;
+}
+
+.garnish {
+    margin-top: 15px;
+}
+
+.list_cont ol {
+    counter-reset: list 8;
+   
+}
+
+.list_cont {
+  padding-right: 100px;
+  
+}
+
+.bottom_container2 {
+    position: absolute;
+    top: 600px;
+    right: 0;
+}
+
+.details2{
+    font-size: 20px;
+    font-weight: 500;
+    padding-left: 125px;
+
+}
+
+
+#cake_img {
+    height: 300px;
+    width: 325px;
+    border: 2px solid #FFFADA;
+    position: absolute;
+    right: 60px;
+    
+}
+
+.recipe_caption2 {
+    padding-top: 295px;
+    padding-right: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+ }
+
+ .video_title2 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    padding-right: 20px;
+}
+
+.instructional_video2 {
+    height: 215px;
+    width: 350px;
+    margin-bottom: 30px;
+    padding-left: 125px;
+}
+
+/*****************************Brownie bottom cheesecake styling begins***************************/
+.cheese {
+    padding-left: 26px;
+}
+
+.recipe_caption3 {
+    padding-top: 295px;
+    padding-right: 25px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+ }
+
+ .ingredientsR3 {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: text-top;
+    padding-left: 40px;
+}
+
+/*****************************Chocolate truffles styling begins***************************/
+.toppings1, .toppings2 {
+    padding-left: 26px;
+}
+
+.ingredientsL4 {
+    font-size: 22px;
+    font-weight: 500;
+    display: inline-block;
+    vertical-align: text-top;
+    padding-left: 40px;
 }
